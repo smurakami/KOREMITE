@@ -11,6 +11,7 @@
 		37A70155201F1CFD00134DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A70154201F1CFD00134DEC /* ViewController.swift */; };
 		37A70157201F1CFD00134DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A70156201F1CFD00134DEC /* Assets.xcassets */; };
 		37A7015A201F1CFD00134DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A70158201F1CFD00134DEC /* Main.storyboard */; };
+		37A70163201F26BC00134DEC /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A70162201F26BC00134DEC /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		37A70159201F1CFD00134DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37A7015B201F1CFD00134DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A7015C201F1CFD00134DEC /* UeShita.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UeShita.entitlements; sourceTree = "<group>"; };
+		37A70162201F26BC00134DEC /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				37A70152201F1CFD00134DEC /* AppDelegate.swift */,
+				37A70162201F26BC00134DEC /* WindowController.swift */,
 				37A70154201F1CFD00134DEC /* ViewController.swift */,
 				37A70156201F1CFD00134DEC /* Assets.xcassets */,
 				37A70158201F1CFD00134DEC /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A70155201F1CFD00134DEC /* ViewController.swift in Sources */,
+				37A70163201F26BC00134DEC /* WindowController.swift in Sources */,
 				37A70153201F1CFD00134DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -252,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
