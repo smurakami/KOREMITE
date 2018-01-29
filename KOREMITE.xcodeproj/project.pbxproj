@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37A7014F201F1CFD00134DEC /* UeShita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UeShita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A7014F201F1CFD00134DEC /* KOREMITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOREMITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A70152201F1CFD00134DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A70154201F1CFD00134DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37A70156201F1CFD00134DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		37A70150201F1CFD00134DEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37A7014F201F1CFD00134DEC /* UeShita.app */,
+				37A7014F201F1CFD00134DEC /* KOREMITE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37A7014E201F1CFD00134DEC /* UeShita */ = {
+		37A7014E201F1CFD00134DEC /* KOREMITE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A7015F201F1CFD00134DEC /* Build configuration list for PBXNativeTarget "UeShita" */;
+			buildConfigurationList = 37A7015F201F1CFD00134DEC /* Build configuration list for PBXNativeTarget "KOREMITE" */;
 			buildPhases = (
 				37A7014B201F1CFD00134DEC /* Sources */,
 				37A7014C201F1CFD00134DEC /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = UeShita;
+			name = KOREMITE;
 			productName = UeShita;
-			productReference = 37A7014F201F1CFD00134DEC /* UeShita.app */;
+			productReference = 37A7014F201F1CFD00134DEC /* KOREMITE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37A7014A201F1CFD00134DEC /* Build configuration list for PBXProject "UeShita" */;
+			buildConfigurationList = 37A7014A201F1CFD00134DEC /* Build configuration list for PBXProject "KOREMITE" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37A7014E201F1CFD00134DEC /* UeShita */,
+				37A7014E201F1CFD00134DEC /* KOREMITE */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 				DEVELOPMENT_TEAM = G7SR6JMJ25;
 				INFOPLIST_FILE = UeShita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.self.UeShita;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.KOREMITE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -289,7 +289,7 @@
 				DEVELOPMENT_TEAM = G7SR6JMJ25;
 				INFOPLIST_FILE = UeShita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.self.UeShita;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.KOREMITE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -298,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37A7014A201F1CFD00134DEC /* Build configuration list for PBXProject "UeShita" */ = {
+		37A7014A201F1CFD00134DEC /* Build configuration list for PBXProject "KOREMITE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A7015D201F1CFD00134DEC /* Debug */,
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A7015F201F1CFD00134DEC /* Build configuration list for PBXNativeTarget "UeShita" */ = {
+		37A7015F201F1CFD00134DEC /* Build configuration list for PBXNativeTarget "KOREMITE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A70160201F1CFD00134DEC /* Debug */,
